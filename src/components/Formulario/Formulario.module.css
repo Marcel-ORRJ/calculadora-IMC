@@ -1,0 +1,43 @@
+.formGroup {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--corBorda);
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--corPrincipal);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--corHover);
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--corSecundaria);
+    border-radius: 5px;
+    border: 1px solid var(--corPrincipal);
+}
+
+.resultado p {
+    margin: 5px 0;
+}

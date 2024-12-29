@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--corFundo);
+    color: var(--corTexto);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+    --corPrincipal: #FEA47F;
+    --corSecundaria: #f1f2f6;
+    --corTexto: #2C3A47;
+    --corFundo: #F8EFBA;
+    --corBorda: #EAB543;
+    --corHover: #F97F51;
+}
